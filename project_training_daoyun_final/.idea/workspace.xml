@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="project_training_daoyun:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ffe1b96-2cee-4f5e-8ea2-a59af3d4d45f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/common" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/common/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/common/ResultGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/config" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/config/TokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/controller/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/controller/OnCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/controller/handler" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/ClassDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/DictionaryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/DictionaryDataDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/GroupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/OnCourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/PermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/RolePermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/UserClassDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain/DictionaryData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain/OnCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain/ResultVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain/RolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/domain/UserClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/exception" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/exception/AuthorityInadequateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/exception/SysException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/exception/resolver" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/exception/resolver/ExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/DictionaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/GroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/OncourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/ClassServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/DictionaryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/GroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/OnCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/test/TestMybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/test/TestSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/BCryptPasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/JedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/NumberUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/SystemUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzu/utils/TokenUtil.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\Web\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1btvKBrJv36uYYYct7gp3up7PxZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Web\IDEA_New_Project\project_training_daoyun\src\main\webapp\WEB-INF\pages" />
+      <recent name="F:\Web\IDEA_New_Project\project_training_daoyun\src\main\java\com\fzu\interceptor" />
+      <recent name="F:\Web\IDEA_New_Project\project_training_daoyun\src\main\java\com\fzu\utils" />
+      <recent name="F:\Web\IDEA_New_Project\project_training_daoyun\src\main\java\com\fzu" />
+      <recent name="F:\Web\IDEA_New_Project\project_training_daoyun\src\main\java\com\fzu\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Web\IDEA_New_Project\project_training_daoyun\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.daoyun">
+    <configuration name="BCryptPasswordUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fzu.utils.BCryptPasswordUtil" />
+      <module name="project_training_daoyun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fzu.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fzu.utils.MD5Util" />
+      <module name="project_training_daoyun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fzu.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatis.testClassFindTeacherCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project_training_daoyun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fzu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fzu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fzu.test.TestMybatis" />
+      <option name="METHOD_NAME" value="testClassFindTeacherCourse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring.testGetUserByToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project_training_daoyun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fzu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fzu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fzu.test.TestSpring" />
+      <option name="METHOD_NAME" value="testGetUserByToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring.testUpdateRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project_training_daoyun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fzu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fzu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fzu.test.TestSpring" />
+      <option name="METHOD_NAME" value="testUpdateRole" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="daoyun" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.514" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/project_training_daoyun_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="project_training_daoyun:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/project_training_daoyun_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_project_training_daoyun" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6423" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="project_training_daoyun:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BCryptPasswordUtil" />
+      <item itemvalue="Application.MD5Util" />
+      <item itemvalue="JUnit.TestSpring.testUpdateRole" />
+      <item itemvalue="JUnit.TestSpring.testGetUserByToken" />
+      <item itemvalue="JUnit.TestMybatis.testClassFindTeacherCourse" />
+      <item itemvalue="Tomcat Server.daoyun" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMybatis.testClassFindTeacherCourse" />
+        <item itemvalue="Application.BCryptPasswordUtil" />
+        <item itemvalue="JUnit.TestSpring.testGetUserByToken" />
+        <item itemvalue="Application.MD5Util" />
+        <item itemvalue="JUnit.TestSpring.testUpdateRole" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\Web\IDEA_New_Project\project_training_daoyun" />
+          <option name="myCopyRoot" value="F:\Web\IDEA_New_Project\project_training_daoyun" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\Web\IDEA_New_Project\project_training_daoyun" />
+          <option name="myCopyRoot" value="F:\Web\IDEA_New_Project\project_training_daoyun" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ffe1b96-2cee-4f5e-8ea2-a59af3d4d45f" name="Default Changelist" comment="" />
+      <created>1589464137743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589464137743</updated>
+      <workItem from="1589464140822" duration="5284000" />
+      <workItem from="1589469803951" duration="1984000" />
+      <workItem from="1589513231071" duration="2059000" />
+      <workItem from="1589527682963" duration="12876000" />
+      <workItem from="1589640003262" duration="2103000" />
+      <workItem from="1589679200932" duration="1448000" />
+      <workItem from="1589710373966" duration="659000" />
+      <workItem from="1589938532787" duration="7395000" />
+      <workItem from="1589982247978" duration="12000" />
+      <workItem from="1590025209889" duration="1433000" />
+      <workItem from="1590053006457" duration="10876000" />
+      <workItem from="1590110645518" duration="32853000" />
+      <workItem from="1590161607596" duration="1320000" />
+      <workItem from="1590203229493" duration="2761000" />
+      <workItem from="1590286742122" duration="600000" />
+      <workItem from="1590501007553" duration="3392000" />
+      <workItem from="1590716312010" duration="283000" />
+      <workItem from="1590743177624" duration="4173000" />
+      <workItem from="1591580540770" duration="9773000" />
+      <workItem from="1591666851031" duration="2071000" />
+      <workItem from="1591761258439" duration="6174000" />
+      <workItem from="1591839406167" duration="9487000" />
+      <workItem from="1591850852270" duration="1196000" />
+      <workItem from="1591925767364" duration="6660000" />
+      <workItem from="1592011063992" duration="2396000" />
+      <workItem from="1592108831193" duration="975000" />
+      <workItem from="1592184737074" duration="1450000" />
+      <workItem from="1592186682714" duration="3538000" />
+      <workItem from="1592271256852" duration="3834000" />
+      <workItem from="1592359010454" duration="1279000" />
+      <workItem from="1592444726371" duration="1987000" />
+      <workItem from="1592485918681" duration="2817000" />
+      <workItem from="1592532735314" duration="1218000" />
+      <workItem from="1592555221423" duration="7440000" />
+      <workItem from="1592621155746" duration="9280000" />
+      <workItem from="1592705277292" duration="1962000" />
+      <workItem from="1592790712135" duration="9922000" />
+      <workItem from="1593394471535" duration="6253000" />
+      <workItem from="1593412179514" duration="4025000" />
+      <workItem from="1593420017537" duration="857000" />
+      <workItem from="1593653636093" duration="7284000" />
+      <workItem from="1593676815159" duration="1314000" />
+      <workItem from="1593678794624" duration="12018000" />
+      <workItem from="1593739296393" duration="16085000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="584" y="76" key="#Project_Structure" timestamp="1589514439040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="76" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589514439040" />
+    <state x="447" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589514469281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589514469281" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1593762894631">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593762894631" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593745486350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593745486350" />
+    <state x="767" y="147" key="FileChooserDialogImpl" timestamp="1593662497545">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="767" y="147" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593662497545" />
+    <state width="724" height="207" key="GridCell.Tab.0.bottom" timestamp="1593780767135">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593780767135" />
+    <state width="724" height="207" key="GridCell.Tab.0.center" timestamp="1593780767135">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593780767135" />
+    <state width="724" height="207" key="GridCell.Tab.0.left" timestamp="1593780767135">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593780767135" />
+    <state width="724" height="207" key="GridCell.Tab.0.right" timestamp="1593780767135">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593780767135" />
+    <state width="1024" height="269" key="GridCell.Tab.1.bottom" timestamp="1593780767131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="269" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593780767131" />
+    <state width="1024" height="269" key="GridCell.Tab.1.center" timestamp="1593780767131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="269" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593780767131" />
+    <state width="1024" height="269" key="GridCell.Tab.1.left" timestamp="1593780767130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="269" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593780767130" />
+    <state width="1024" height="269" key="GridCell.Tab.1.right" timestamp="1593780767131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="269" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593780767131" />
+    <state width="1024" height="269" key="GridCell.Tab.2.bottom" timestamp="1593780767131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="269" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593780767131" />
+    <state width="1024" height="269" key="GridCell.Tab.2.center" timestamp="1593780767131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="269" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593780767131" />
+    <state width="1024" height="269" key="GridCell.Tab.2.left" timestamp="1593780767131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="269" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593780767131" />
+    <state width="1024" height="269" key="GridCell.Tab.2.right" timestamp="1593780767131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="269" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593780767131" />
+    <state x="408" y="116" key="NewModule_or_Project.wizard" timestamp="1589640456713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1589640456713" />
+    <state x="413" y="12" key="SettingsEditor" timestamp="1590287066694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="413" y="12" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590287066694" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1593741124163">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593741124163" />
+    <state x="433" y="234" key="extract.method.dialog" timestamp="1593676128260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="433" y="234" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1593676128260" />
+    <state x="320" y="87" key="new project wizard" timestamp="1592706577028">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="320" y="87" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1592706577028" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1589466611385">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589466611385" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593750547901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593750547901" />
+    <state x="923" y="123" key="svn.repositoryBrowser" timestamp="1590501095437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="923" y="123" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1590501095437" />
+    <state x="575" y="319" key="svn.upgradeDialog" timestamp="1590287210269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="575" y="319" key="svn.upgradeDialog/0.0.1536.824@0.0.1536.824" timestamp="1590287210269" />
+  </component>
+</project>
